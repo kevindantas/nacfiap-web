@@ -1,0 +1,54 @@
+#login {
+    background: #263238;
+    color: #fff;
+    height: 100vh;
+    padding-top: calc((100vh - 300px) / 3);
+}
+
+#login .app-logo {
+    max-width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 36px;
+    display: block;
+}
+
+#login fieldset {
+    background: rgba(255,255,255,.85);
+    color: #000;
+    max-width: 480px;
+    border-radius: 5px;
+    height: 360px;
+    padding: 24px;
+    margin: auto;
+    border: none;
+    box-shadow: 2px 2px 55px 3px rgba(0,0,0,.3);
+}
+
+#login fieldset legend {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+
+
+#login fieldset label {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+#login fieldset label input {
+    float: left;
+    width: 100%;
+    padding: 12px;
+    border-radius: 3px;
+    margin-top: 4px;
+}
+
+
+
+#login fieldset button {
+    width: 100%;
+}

@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-//import './NavBar.css';
-
-import AppBar from 'material-ui/AppBar';
-import FlatButton from 'material-ui/FlatButton';
+import NavMenu  from './NavMenu';
+import './NavBar.css';
+import './App.css';
+import logo from '../logo.svg';
 
 
 class NavBar extends Component {
   render() {
     return (
-      <AppBar
-        title="Title"
-        iconElementRight={<FlatButton label="Save" />}
-
-      />
+      <nav className="navbar">
+        <img src={logo} className="app-logo" alt="logo"/>
+        <NavMenu />
+      </nav>
     );
   }
 
