@@ -1,0 +1,9 @@
+.produtos-search input {
+    width: 450px;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 1000px;
+    border: 1px solid rgba(0,0,0,.2);
+    margin-right: 8px;
+    box-shadow: 3px 3px 7px 0px rgba(0,0,0,.1);
+}

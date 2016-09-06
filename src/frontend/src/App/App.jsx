@@ -11,9 +11,9 @@ class App extends Component {
     return (
         <div className="App">
           <Navbar />
-          <p className="App-intro">
-
-          </p>
+          <main>
+            { this.props.children }
+          </main>
         </div>
     );
   }
